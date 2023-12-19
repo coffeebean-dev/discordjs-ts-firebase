@@ -1,11 +1,11 @@
-import { MyReadyEvent } from '../types';
+import { MyReadyEvent } from "../types";
 
 export default {
-  name: 'ready',
+    name: "ready",
 
-  run(client) {
-    console.log('Bot online como', client.user?.username);
+    async run(client) {
+        console.log("Bot online como", client.user?.username);
 
-    client.utils.summitCommands();
-  },
+        client.utils.summitCommands();
+    },
 } as MyReadyEvent;
