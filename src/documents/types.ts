@@ -11,7 +11,7 @@ export interface IBotOwner {
     discordUserId: string;
 }
 
-export interface IBotPermission {
+export interface IBotRole {
     guildId: string;
     roleId: string;
     commandName: string;

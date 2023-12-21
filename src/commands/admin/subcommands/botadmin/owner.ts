@@ -4,9 +4,9 @@ import {
     SlashCommandSubcommandBuilder,
 } from "discord.js";
 import Bot from "../../../../structures/Bot";
-import { db } from "../../../../Firebase";
 import { IBotOwner } from "../../../../documents/types";
 import { WriteResult } from "firebase-admin/firestore";
+import { db } from "../../../../firebase";
 
 export const ownerSubcommand = () => {
     return {

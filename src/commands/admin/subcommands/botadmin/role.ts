@@ -5,8 +5,8 @@ import {
 } from "discord.js";
 import Bot from "../../../../structures/Bot";
 import { IBotRole } from "../../../../documents/types";
-import { db } from "../../../../Firebase";
 import { WriteResult } from "firebase-admin/firestore";
+import { db } from "../../../../firebase";
 
 export const roleSubcommand = () => {
     return {

@@ -1,7 +1,6 @@
 import { GuildMemberRoleManager } from "discord.js";
 import { MyBotEvents } from "../types";
-import { db } from "../Firebase";
-import { QuerySnapshot } from "firebase-admin/firestore";
+import { db } from "../firebase";
 import { IBotLog, IBotOwner } from "../documents/types";
 
 export default {
